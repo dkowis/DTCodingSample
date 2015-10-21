@@ -10,6 +10,7 @@ public class Palindrome {
      * Determine if a string is a palindrome.
      * This will report that the word "I" is a palindrome, I couldn't find anything on the internet in a quick search
      * to tell me if the word "I" is or isn't a palindrome.
+     *
      * @param s
      * @return
      */
@@ -23,7 +24,7 @@ public class Palindrome {
 
         //Aww, java still doesn't have a .join() method (or a mkString)
         StringBuilder reversed = new StringBuilder();
-        for(String string : reversalArray) {
+        for (String string : reversalArray) {
             reversed.append(string);
         }
 
