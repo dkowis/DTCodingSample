@@ -10,7 +10,7 @@ class KeyCountsTest extends FunSpec with Matchers{
   describe("summing up keys from a file") {
     it("sums up keys properly") {
       //Given a uri to a file
-      val url = getClass.getResource("/keyCounts.txt")
+      val url = getClass.getResource("/keyCountFile.txt")
 
       //When I ask my function to sum it for me
       val result = KeyCounts.countKeys(url)
